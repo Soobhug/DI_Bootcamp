@@ -1,0 +1,31 @@
+.grid-container{
+    background-color:white;
+    display:grid;
+    grid-template-areas:
+    '. a1 .'
+    '. a1 .'
+    '. a1 .'
+    '. a1 .';
+
+
+grid-row-gap:8px;
+grid-template-columns: auto 1fr auto;
+}
+
+.grid-cell{
+    background-color:yellow;
+    height:50px;
+    width:50px;
+    border: 1px solid black
+}
+
+.center-cell{
+    grid-area:a;
+    display:flex;
+
+}
+
+
+
+    
+

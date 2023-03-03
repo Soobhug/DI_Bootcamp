@@ -1,0 +1,35 @@
+form {
+    display:grid;
+    row-gap: 5px ;
+    padding:5px 10px 5px 10px;
+    background-color:rgb(2, 18, 67);
+    }
+
+    form label{
+        display:contents;
+        font-style: italic;
+        color:rgb(186, 254, 83)
+
+    }
+
+    h1{
+        font-family:fantasy ;
+        color:rgb(244, 78, 18)
+    }
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    
+    
+}
+
+form input{
+    height: 30px;
+    border-radius: 10px;
+    border-color:rgb(235, 8, 235);
+
+}
+
+form button{
+    
+}

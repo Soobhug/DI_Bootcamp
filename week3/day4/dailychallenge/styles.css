@@ -1,0 +1,40 @@
+element.style{
+    border:1px,solid,black
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+head{
+    display:none;
+}
+
+body{
+    background-color: darkgrey;
+}
+
+sidebar{
+    display:grid;
+    grid-gap :5px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(8,1fr);
+    height:100vh;
+    width:20%;
+    float:left;
+    background-color: darkgrey;
+padding: 5px;
+}
+
+main{
+    display:grid;
+    grid-template-columns: repeat(60,1fr);
+    height:100vh;
+}
+
+iframe{
+    max: width 100%;
+    width:100%;
+}
